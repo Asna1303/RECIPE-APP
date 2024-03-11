@@ -5,7 +5,7 @@ import {Routes,Route} from 'react-router-dom';
 function App() {
   return (
     <div>
-      <div className='min-h-screen'>
+      <div className='min-h-screen p-6 bg-white text-gray-600 text-lg' >
 
       </div>
       
