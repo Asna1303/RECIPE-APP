@@ -1,6 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
 import {Routes,Route, NavLink} from 'react-router-dom';
+import Navbar from './components/navbar';
+import Home from './pages/home';
+import Favorites from './pages/favorites';
+
+
 
 function App() {
   return (
@@ -14,7 +19,11 @@ function App() {
     <Home/>
   }
   />
-  <Route/>
+  <Route
+  path='favorites'
+  element={
+    <Favorites/>
+  }/>
   <Route/>
 </Routes>
       </div>
