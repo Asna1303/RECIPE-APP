@@ -8,7 +8,9 @@ function App() {
       <div className='min-h-screen p-6 bg-white text-gray-600 text-lg' >
         <Navbar/>
 <Routes>
-  
+  <Route/>
+  <Route/>
+  <Route/>
 </Routes>
       </div>
       
