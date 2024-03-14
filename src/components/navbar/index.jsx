@@ -1,6 +1,10 @@
 import { NavLink } from "react-router-dom";
+import { GlobalContext } from "../../context";
+import {useContext} from "react";
 
 export default function Navbar(){
+
+    const{}= useContext(GlobalContext)
     return <nav className="flex justify-between item-center py-8 container mx-auto flex-col lg:flex-row gap-5 lg:gap-0">
 <h2 className="text-2xl font-semibold">
    FoodRecipe 
