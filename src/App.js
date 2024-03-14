@@ -27,6 +27,9 @@ function App() {
   }/>
   <Route
   path='/recipe-item/:id'
+  element={
+    <Details/>
+  }
   />
 </Routes>
       </div>
