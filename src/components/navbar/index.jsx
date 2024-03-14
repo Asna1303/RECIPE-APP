@@ -5,6 +5,9 @@ export default function Navbar(){
 <h2 className="text-2xl font-semibold">
    FoodRecipe 
 </h2>
+<NavLink to={"/"} className='text-black hover:text-gray-700 duration-300' >
+        FoodRecipe
+    </NavLink>
 <form>
     <input
     type="text"
@@ -15,8 +18,13 @@ export default function Navbar(){
 </form>
 <ul className="flex gap-5">
 <li>
-    <NavLink to={'/'} className='text-black hover:text-gray-700 duration-300' >
+    <NavLink to={"/"} className='text-black hover:text-gray-700 duration-300' >
         Home
+    </NavLink>
+</li>
+<li>
+    <NavLink to={"/favorites"} className='text-black hover:text-gray-700 duration-300' >
+        favourites
     </NavLink>
 </li>
 </ul>
