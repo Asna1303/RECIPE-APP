@@ -26,7 +26,7 @@ function App() {
     <Favorites/>
   }/>
   <Route
-  path='/recipe-item/'
+  path='/recipe-item/:id'
   />
 </Routes>
       </div>
