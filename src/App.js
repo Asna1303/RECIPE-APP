@@ -25,7 +25,9 @@ function App() {
   element={
     <Favorites/>
   }/>
-  <Route/>
+  <Route
+  path='/recipe-item/'
+  />
 </Routes>
       </div>
       
