@@ -3,5 +3,13 @@ export default function Navbar(){
 <h2 className="text-2xl font-semibold">
    FoodRecipe 
 </h2>
+<form>
+    <input
+    type="text"
+    name="search"
+    placeholder="Enter Items..."
+    className="bg-white/75 p-3 px-8 rounded-full outline-none lg:w-96 shadow-lg shadow-red-100 focus:shadow-red-200"
+    />
+</form>
     </nav>
 }
