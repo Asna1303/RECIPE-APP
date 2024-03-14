@@ -15,7 +15,7 @@ export default function Navbar(){
 </form>
 <ul className="flex gap-5">
 <li>
-    <NavLink>
+    <NavLink to={'/'} >
         Home
     </NavLink>
 </li>
